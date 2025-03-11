@@ -12,6 +12,6 @@ export async function getStaticProps() {
     props: {
       timestamp: new Date().toISOString(),
     },
-    revalidate: 600
+    revalidate: 60
   };
 }
